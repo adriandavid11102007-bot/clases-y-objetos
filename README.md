@@ -1,10 +1,13 @@
 # clases-y-objetos
 Adrian David De La Rosa Alvarez (2026-1144)
+
 El programa es un gestor básico de inventario literario en consola. Permite al usuario registrar de forma secuencial la información de 5 libros diferentes, almacena estos datos de forma estructurada en la memoria interna mediante un arreglo de objetos y, finalmente, despliega un reporte ordenado con la ficha técnica de cada libro introducido.
+
 Datos de entrada: Son los datos que el usuario digita a través del teclado (cin / getline):Cadenas de texto (string): Título del libro y Nombre del autor.Números enteros (int): Año de publicación, Número de edición y Cantidad total de páginas.
 Datos que procesa: El programa procesa y administra:El índice del bucle (i): Controla la posición exacta (de 0 a 4) dentro del arreglo donde se guardará cada libro. Constructores de la clase: Copia los datos temporales de la entrada y los asigna a las variables internas de cada objeto Libro. Arreglo estático (listaLibros[5]): Almacena en la memoria RAM el conjunto de los 5 objetos de manera contigua para que no se pierdan durante la ejecución.
 Datos de salida: Son los datos que el programa imprime en la pantalla de la consola (cout):Mensajes de guía visual para el usuario (petición de datos).Cinco bloques de texto formateados que actúan como "fichas técnicas", mostrando las propiedades de cada libro (Título, Autor, Año, Edición y Páginas) de forma limpia y legible.
 La encapsulación actúa como un "escudo protector" en la programación. Al hacer los atributos privados (private), se oculta y protege la información del exterior. Esto evita que el código del main corrompa o modifique los datos por error (como poner páginas negativas). Toda interacción se obliga a pasar por los métodos públicos autorizados, garantizando un código más seguro, ordenado y fácil de mantener.
+
 Guardar: Guarda el código en un archivo llamado main.cpp.Por Terminal:Compila con: g++ -std=c++11 main.cpp -o programaEjecuta con: ./programa (Linux/Mac) o programa.exe (Windows).Por IDE (Dev-C++ / Code::Blocks): Abre el archivo, asegúrate de tener activo el soporte para C++11 en la configuración y presiona el botón Compilar y Ejecutar (o la tecla F11).
 
 <img width="603" height="957" alt="Captura de pantalla 2026-08-01 175735" src="https://github.com/user-attachments/assets/4cc7f347-945a-4597-af3e-5b44bf8a3b67" />
